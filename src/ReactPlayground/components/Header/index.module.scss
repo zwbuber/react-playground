@@ -1,0 +1,25 @@
+.header {
+  height: 50px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  box-shadow: 0 0 4px #00000054;
+  background-color: var(--bg);
+  color: var(--text);
+  position: relative;
+  z-index: 999;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+
+    img {
+      height: 24px;
+      margin-right: 10px;
+    }
+  }
+}
